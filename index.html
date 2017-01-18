@@ -5,7 +5,182 @@
 </head>
 <body>
 
-	<h1>Some text</h1>
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/custom.css">
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">  
+
+    <!-- HEADER NAV -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#about">Felipe Moura</a>
+    </div>
+
+    <!-- Sections NAV -->
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- ABOUT -->
+<section class="row" id="about">
+  
+  <h2 class="sectionTitle">About</h2>
+  <div class="col-lg-4 col-lg-offset-3 col-md-4 col-md-offset-3 col-sm-4 col-sm-offset-3 col-xs-5 col-xs-offset-2">
+    <div class="text-justify">
+  This is the first portfolio I have ever done using Bootstrap 3, CSS, and JS here are some text about myself. I'm a computer engineering student and I am
+    currently learning front-end development using the Free Code Camp, which is a useful place for everyone learn about coding. 
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3">
+    <img src="http://res.cloudinary.com/felpmoura/image/upload/v1483213317/35f8719_cmjqjp.jpg" alt="NotFound" class="img-settings img-responsive img-circle pull-right"/>
+  </div> 
+</section>
+
+
+<hr class="style18">
+
+<!-- PORTFOLIO -->
+<section class="row" id="portfolio">
+  <h2 class="sectionTitle">Portfolio</h2>
+
+  <div class="row">  
+    <div class="col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-2 cols-xs-12">
+        <a href="#portfolio" class="thumbnail">
+          <img src="holder.js/300x200" alt="Coming Soon" class="temp-image-portfolio">
+        </a>
+    </div>
+      
+    <div class="col-lg-4 col-md-4 col-sm-4 cols-xs-12">
+        <a href="#portfolio" class="thumbnail">
+          <img src="holder.js/300x200" alt="Coming Soon" class="temp-image-portfolio">
+        </a>
+    </div>
+  </div>
+
+  <div class="row">  
+    <div class="col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-2 cols-xs-12">
+      <a href="#portfolio" class="thumbnail">
+        <img src="holder.js/300x200" alt="Coming Soon" class="temp-image-portfolio">
+      </a>
+    </div>
+    
+    <div class="col-lg-4 col-md-4 col-sm-4 cols-xs-12">
+      <a href="#portfolio" class="thumbnail">
+        <img src="holder.js/300x200" alt="Coming Soon" class="temp-image-portfolio">
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<hr class="style18">
+
+
+<!-- CONTACT -->
+<section class="row" id="contact">
+   <h2 class="sectionTitle">Contact</h2>
+  
+  <!-- Form -->
+  <div class="col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-2 cols-xs-12">
+    <form>
+      <div class="form-group">
+        <label for="InputName">Name</label>
+        <input type="name" class="form-control" id="InputName" aria-describedby="NameHelp" placeholder="Name">
+      </div>
+
+      <div class="form-group">
+        <label for="InputEmail1">Email address</label>
+        <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter a valid email">
+        <small id="emailHelp" class="form-text text-muted" style="color:black">I'll never share your email with anyone else. I promisse!</small>
+      </div>
+
+      <div class="form-group">
+        <label for="phoneNumber">Phone Number</label>
+        <input class="form-control" id="phoneNumber" aria-describedby="numberHelp" placeholder="Phone Number">
+      </div>
+
+     <div class="form-group">
+        <label for="exampleTextarea">Text</label>
+        <textarea class="form-control" id="exampleTextarea" rows="5" placeholder="Enter Text"></textarea>
+     </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+  
+  <!-- Explanation of Form -->
+  <div class="col-lg-4 col-md-4 col-sm-4 cols-xs-12">
+    <div class="text-justify">
+      Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.
+      <br><br><br>
+      I promise to reply A.S.A.P.<br><br><br>
+      Note: No spam/soliciting pour moi, merci :)
+    </div>
+  </div>  
+</section>
+
+<hr class="style18">
+  
+<!-- FOOTER WITH DESIGNER LINK (ME HAHAHA) -->
+<div class="container">
+  <div class="footer-up row">
+
+    <div class="col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-2 cols-xs-12">
+      <div class="text-center">
+        Made with much <br><i class="fa fa-coffee fa-cog fa-lg" style="color:brown"></i> and <i class="fa fa-heart-o fa-cog fa-lg" style="color:red"></i>.
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 cols-xs-12">
+      <div class="text-center">
+        Youn can find me on<br>
+        <!-- FREECODE -->
+        <a href="https://www.freecodecamp.com/felipemoura" target="_blanket">
+          <i class="fa fa-cog fa-free-code-camp fa-3x" aria-hidden="true">
+          </i>
+        </a>
+    
+    <!-- FACEBOOK -->
+        <a href="https://www.facebook.com/felpmoura" target="_blanket">
+          <i class="fa fa-cog fa-facebook fa-3x" aria-hidden="true">
+          </i>
+        </a>
+
+        <!-- LINKED IN -->
+        <a href="https://www.linkedin.com/in/felipemoreiramoura" target="_blanket">
+          <i class="fa fa-cog fa-linkedin-square fa-3x" aria-hidden="true">
+          </i>
+        </a>
+
+
+      </div>
+    </div>
+  </div>
+  <footer class="text-center" style="margin-top:10%; margin-bottom:3%">
+    Felipe Moura, All Rights Reserved 2016 ©.
+  </footer>
+</div>
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+
 
 </body>
 </html>
